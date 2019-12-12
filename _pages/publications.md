@@ -79,33 +79,48 @@ pubs:
     month: "January"
     url: "/publications/BMKG_Paper.pdf"
 
+time:
+  - year: "2016"
+    name: "2016 and Before"
+
+  - year: "2017"
+    name: "2017"
+
+  - year: "2018"
+    name: "2018"
+
+  - year: "2019"
+    name: "2019"
+
+  - year: "2019"
+    name: "2019"
 ---
 
 <!-- # Publications
 <hr>
 ## Selected Publications -->
 
-Selected Publications
-======
-
-{% for pub in page.pubs %}
-{% unless pub.hidden %}
-  - {% if pub.url %} [{{pub.title}}]({{pub.url}}).
-    {% else %} {{pub.title}}.
-    {% endif %}{% if pub.type %}({{pub.type}})
-    {% endif %}<br>
-    {{pub.author}}.<br>
-    {% if pub.type == 'Technical Report' %}{{pub.number}}
-    {% endif %}{{pub.booktitle}}{{pub.school}}{{pub.journal}}
-    {% if pub.pages %},{{pub.pages}}{% endif %}<br>
-    {% if pub.address %}{{pub.address}}.
-    {% endif %} {{pub.month}}, {{pub.year}}.
-    {% if pub.url %}[[Paper]]({{pub.url}}).{% endif %}
-    {% if pub.slides %}[[Slides]]({{pub.slides}}).{% endif %}
-    {% if pub.key %}[Bibtex](http://groups.csail.mit.edu/commit/bibtex.cgi?key={{pub.key}}).
-    {% endif %}{% if pub.bibtex %}[Bibtex]({{pub.bibtex}}).
-    {% endif %}
-{% endunless %}
+{% for year in page.time %}
+### {{year.name}}
+  {% for pub in page.pubs %}
+  {% unless pub.hidden %}
+    - {% if pub.url %} [{{pub.title}}]({{pub.url}}).
+      {% else %} {{pub.title}}.
+      {% endif %}{% if pub.type %}({{pub.type}})
+      {% endif %}<br>
+      {{pub.author}}.<br>
+      {% if pub.type == 'Technical Report' %}{{pub.number}}
+      {% endif %}{{pub.booktitle}}{{pub.school}}{{pub.journal}}
+      {% if pub.pages %},{{pub.pages}}{% endif %}<br>
+      {% if pub.address %}{{pub.address}}.
+      {% endif %} {{pub.month}}, {{pub.year}}.
+      {% if pub.url %}[[Paper]]({{pub.url}}).{% endif %}
+      {% if pub.slides %}[[Slides]]({{pub.slides}}).{% endif %}
+      {% if pub.key %}[Bibtex](http://groups.csail.mit.edu/commit/bibtex.cgi?key={{pub.key}}).
+      {% endif %}{% if pub.bibtex %}[Bibtex]({{pub.bibtex}}).
+      {% endif %}
+  {% endunless %}
+  {% endfor %}
 {% endfor %}
 
 
