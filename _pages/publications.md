@@ -103,6 +103,7 @@ time:
 {% for year in page.time %}
 ### {{year.name}}
 {% for pub in page.pubs %}
+{% if pub.year == year.year %}
 {% unless pub.hidden %}
   - {% if pub.url %} [{{pub.title}}]({{pub.url}}).
     {% else %} {{pub.title}}.
@@ -120,6 +121,7 @@ time:
     {% endif %}{% if pub.bibtex %}[Bibtex]({{pub.bibtex}}).
     {% endif %}
 {% endunless %}
+{% endif %}
 {% endfor %}
 {% endfor %}
 
