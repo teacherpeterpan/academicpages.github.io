@@ -82,10 +82,10 @@ analytics:
 author:
   name             : "Liangming Pan"
   avatar           : "profile.jpg"
-  bio              : "Ph.D. Candidate in National University of Singapore"
+  bio              : "Ph.D. Candidate\nNational University of Singapore"
   location         : "Singapore, Singapore"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=JcjjOTUAAAAJ"
   email            : "e0272310@u.nus.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
@@ -115,6 +115,7 @@ author:
   xing             :
   youtube          :
   wikipedia        :
+  dblp             : "https://dblp.uni-trier.de/pers/hd/p/Pan:Liangming"
 
 
 # Reading Files
