@@ -9,7 +9,7 @@ pubs:
     keywords: "CCKS18"
     month: "August"
     year: "2018"
-    booktitle: "In Proceedings of *3th China Conference on Knowledge Graph and Semantic Computing* **(CCKS 2018)**"
+    booktitle: "*The 3th China Conference on Knowledge Graph and Semantic Computing* **(CCKS 2018)**"
     address: "Tianjin, China"
     url: "/publications/CCKS18_Paper.pdf"
 
@@ -18,9 +18,9 @@ pubs:
     keywords: "IJCNLP17"
     month: "December"
     year: "2017"
-    booktitle: "In Proceedings of *the 8th International Joint Conference on Natural Language Processing* **(IJCNLP 2017)**"
+    booktitle: "*The 8th International Joint Conference on Natural Language Processing* **(IJCNLP 2017)**"
     address: "Taipei, Taiwan"
-    pages: " pages 875--884"
+    pages: " Pages 875--884"
     url: "/publications/IJCNLP17_Paper.pdf"
     slides: "/publications/IJCNLP17_Slides.pdf"
 
@@ -30,8 +30,8 @@ pubs:
     month: "July"
     year: "2017"
     address: "Vancouver, Canada"
-    booktitle: "In Proceedings of *the 55th Annual Meeting of the Association for Computational Linguistics* **(ACL 2017)**"
-    pages: " pages 1447--1456"
+    booktitle: "*The 55th Annual Meeting of the Association for Computational Linguistics* **(ACL 2017)**"
+    pages: " Pages 1447--1456"
     url: "/publications/ACL17_Paper.pdf"
     slides: "/publications/ACL17_Slides.pdf"
 
@@ -41,8 +41,8 @@ pubs:
     month: "October"
     year: "2016"
     address: "Passau, Germany"
-    booktitle: "In Proceedings of *the 9th International Conference on Knowledge Science, Engineering and Management* **(KSEM 2016)**"
-    pages: "pages 426--438"
+    booktitle: "*The 9th International Conference on Knowledge Science, Engineering and Management* **(KSEM 2016)**"
+    pages: "Pages 426--438"
     url: "/publications/KSEM16_Paper.pdf"
     slides: "/publications/KSEM16_Slides.pdf"
 
@@ -52,8 +52,8 @@ pubs:
     month: "October"
     year: "2016"
     address: "Kobe, Japan"
-    booktitle: "In Proceedings of *the 11th International Workshop on Ontology Matching co-located with the 15th International Semantic Web Conference* **(OM@ISWC 2016)**"
-    pages: "pages 210--216"
+    booktitle: "*The 11th International Workshop on Ontology Matching co-located with the 15th International Semantic Web Conference* **(OM@ISWC 2016)**"
+    pages: "Pages 210--216"
     url: "/publications/OAEI16_Paper.pdf"
 
   - author: "Zhigang Wang, **Liangming Pan**, Juanzi Li, Shuangjie Li, Mingyang Li and Jie Tang"
@@ -62,8 +62,8 @@ pubs:
     month: "September"
     year: "2016"
     address: "Beijing, China"
-    booktitle: "In Proceedings of *1th China Conference on Knowledge Graph and Semantic Computing* **(CCKS 2016)**"
-    pages: "pages 41--53"
+    booktitle: "*The 1th China Conference on Knowledge Graph and Semantic Computing* **(CCKS 2016)**"
+    pages: "Pages 41--53"
     url: "/publications/CCKS16_Paper.pdf"
     slides: "/publications/CCKS16_Slides.pdf"
 
@@ -80,20 +80,20 @@ pubs:
     url: "/publications/BMKG_Paper.pdf"
 
 time:
-  - year: "2016"
-    name: "2016 and Before"
+  - year: "2020"
+    name: "2020"
 
-  - year: "2017"
-    name: "2017"
+  - year: "2019"
+    name: "2019"
 
   - year: "2018"
     name: "2018"
 
-  - year: "2019"
-    name: "2019"
+  - year: "2017"
+    name: "2017"
 
-  - year: "2019"
-    name: "2019"
+  - year: "2016"
+    name: "2016 and Before"
 ---
 
 <!-- # Publications
@@ -111,8 +111,8 @@ time:
     {% endif %}<br>
     {{pub.author}}.<br>
     {% if pub.type == 'Technical Report' %}{{pub.number}}
-    {% endif %}{{pub.booktitle}}{{pub.school}}{{pub.journal}}
-    {% if pub.pages %},{{pub.pages}}{% endif %}<br>
+    {% endif %}{{pub.booktitle}}{{pub.school}}{{pub.journal}}<br>
+    {% if pub.pages %}{{pub.pages}}{% endif %}. 
     {% if pub.address %}{{pub.address}}.
     {% endif %} {{pub.month}}, {{pub.year}}.<br>
     {% if pub.url %}[[Paper]]({{pub.url}}).{% endif %}
