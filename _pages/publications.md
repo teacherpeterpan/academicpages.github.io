@@ -6,7 +6,7 @@ author_profile: true
 pubs:
   - author: "Jingjing Chen, **Liangming Pan**, Zhipeng Wei, Xiang Wang, Chong-Wah Ngo, Tat-Seng Chua"
     title: "Zero-shot Ingredient Recognition by Multi-Relational Graph Convolutional Network"
-    keywords: "CCKS18"
+    keywords: "AAAI20"
     month: "February"
     year: "2020"
     booktitle: "*The 34th AAAI Conference on Artificial Intelligence* **(AAAI 2020)**"
@@ -20,13 +20,11 @@ pubs:
     booktitle: "arXiv preprint"
     url: "https://arxiv.org/abs/1905.08949"
 
-  - author: "Yahui An, **Liangming Pan**, Min-Yen Kan, Qiang Dong, and Yan Fu (Corresponding Author)"
+  - author: "Yahui An, **Liangming Pan\***, Min-Yen Kan, Qiang Dong, and Yan Fu (Corresponding Author)"
     title: "Resource Mention Extraction for MOOC Discussion Forums"
     keywords: "IEEE_Access19"
-    journal: "IEEE Access"
+    journal: "IEEE Access 7 (2019): 87887-87900"
     type: "Journal"
-    number: "7"
-    pages: "87887--87900"
     year: "2019"
     url: "/publications/IEEE_Access.pdf"
 
@@ -104,6 +102,7 @@ pubs:
     year: "2016"
     month: "January"
     url: "/publications/BMKG_Paper.pdf"
+    hidden: "True"
 
 time:
   - year: "2020"
@@ -132,15 +131,17 @@ time:
 {% if pub.year == year.year %}
 {% unless pub.hidden %}
   - {% if pub.url %} [{{pub.title}}]({{pub.url}}).
-    {% else %} {{pub.title}}.
+    {% else %} {{pub.title}}
     {% endif %}{% if pub.type %}({{pub.type}})
     {% endif %}<br>
-    {{pub.author}}.<br>
+    {{pub.author}}<br>
     {% if pub.type == 'Technical Report' %}{{pub.number}}
     {% endif %}{{pub.booktitle}}{{pub.school}}{{pub.journal}}<br>
+    {% if pub.month %}
     {% if pub.pages %}{{pub.pages}}. {% endif %} 
     {% if pub.address %}{{pub.address}}.
     {% endif %} {{pub.month}}, {{pub.year}}.<br>
+    {% endif %}
     {% if pub.url %}[[Paper]]({{pub.url}}).{% endif %}
     {% if pub.slides %}[[Slides]]({{pub.slides}}).{% endif %}
     {% if pub.key %}[Bibtex](http://groups.csail.mit.edu/commit/bibtex.cgi?key={{pub.key}}).
