@@ -140,8 +140,8 @@ time:
     {% if pub.month %}
     {% if pub.pages %}{{pub.pages}}. {% endif %} 
     {% if pub.address %}{{pub.address}}.
-    {% endif %} {{pub.month}}, {{pub.year}}.<br>
-    {% endif %}
+    {% endif %} {{pub.month}}, {{pub.year}}.
+    {% endif %}<br>
     {% if pub.url %}[[Paper]]({{pub.url}}).{% endif %}
     {% if pub.slides %}[[Slides]]({{pub.slides}}).{% endif %}
     {% if pub.key %}[Bibtex](http://groups.csail.mit.edu/commit/bibtex.cgi?key={{pub.key}}).
