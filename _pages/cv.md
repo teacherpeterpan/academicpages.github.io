@@ -11,32 +11,37 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* Ph.D in National University of Singapore, Jan 2018 - Jan 2022 (expected)
+* M.S. in Tsinghua University, Sep 2014 - July 2017
+* B.S. in Beihang University, Sep 2010 - July 2014
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* July 2017 - Dec 2017: Research Assistant
+  * Knowledge Engineering Group, Tsinghua University
+  * Supervisor: Professor Juanzi Li and Professor Jie Tang
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
+Awards and Hornors
+======
+* Excellent master postgraduate of CS department, Tsinghua, Jun. 2017
+* Friends of Tsinghua — Renrendai scholarship, Oct. 2016
+* Meritorious Winner of Mathematical Contest in Modeling, Apr. 2013
+* Third prize Scholarship of Academic Performance, Dec. 2011
+* Second prize of Mathematics Competition in Beihang University, Aug. 2011
+
+Public Services
+======
+* Reviewer, ACL 2020
+
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Python
+* Deep Learning
+  * TensorFlow
+  * PyTorch
+* Flask
 
-Publications
+<!-- Publications
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
@@ -52,8 +57,4 @@ Teaching
 ======
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+  {% endfor %}</ul> -->

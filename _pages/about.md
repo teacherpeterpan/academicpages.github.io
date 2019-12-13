@@ -40,3 +40,14 @@ One paper is accepted by [AAAI 2020](https://AAAI.org/Conferences/AAAI-20/) abou
 
 **[May 22, 2019]**
 A survey paper on Neural Question Generation (NQG) is posted in the [arXiv](https://arxiv.org/abs/1905.08949). 
+
+Research Topics
+======
+
+- **Data Mining in MOOCs**
+
+  Recent years, MOOCs have become increasingly popular and offered students around the world the opportunity to take online courses from different universities. The large and growing amounts of online education data present both open challenges and significant opportunities for data mining research to enrich educational offerings. From the year 2016 to 2017, I have been working on how to efficiently discover the knowledge concepts in MOOCs and also discover the relationships between these concepts. 
+
+- **Cross-lingual Knowledge Graph**
+ 
+  The global knowledge sharing makes large-scale multi-lingual knowledge bases an extremely valuable resource in the Big Data era. In the year 2015, my research mainly focus on cross-lingual knowledge graph construction, and I also research on cross-lingual knowledge linking, which aims to discover and link equivalent entities between multi-lingual knowledge bases. 
