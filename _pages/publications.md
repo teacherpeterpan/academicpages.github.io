@@ -137,7 +137,7 @@ time:
     {{pub.author}}<br>
     {{pub.booktitle}}{{pub.school}}{{pub.journal}}<br>
     {% if pub.month %}
-    {% if pub.address %}{{pub.address}}.
+    {% if pub.address %} {{pub.address}}.
     {% endif %} {{pub.month}}, {{pub.year}}.<br>
     {% endif %}
     {% if pub.url %}[[Paper]]({{pub.url}}).{% endif %}
