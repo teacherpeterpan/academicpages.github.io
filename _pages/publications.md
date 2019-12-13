@@ -1,9 +1,35 @@
 ---
 layout: archive
-title: "Publications"
+title: "Selected Publications"
 permalink: /publications/
 author_profile: true
 pubs:
+  - author: "Jingjing Chen, **Liangming Pan**, Zhipeng Wei, Xiang Wang, Chong-Wah Ngo, Tat-Seng Chua"
+    title: "Zero-shot Ingredient Recognition by Multi-Relational Graph Convolutional Network"
+    keywords: "CCKS18"
+    month: "February"
+    year: "2020"
+    booktitle: "*The 34th AAAI Conference on Artificial Intelligence* **(AAAI 2020)**"
+    address: "New York, USA"
+    url: "/publications/AAAA20_Paper.pdf"
+
+  - author: "**Liangming Pan**, Wenqiang Lei, Tat-Seng Chua, Min-Yan Kan"
+    title: "Recent Advances in Neural Question Generation"
+    keywords: "QG_survey"
+    year: "2019"
+    booktitle: "arXiv preprint"
+    url: "https://arxiv.org/abs/1905.08949"
+
+  - author: "Yahui An, **Liangming Pan**, Min-Yen Kan, Qiang Dong, and Yan Fu (Corresponding Author)"
+    title: "Resource Mention Extraction for MOOC Discussion Forums"
+    keywords: "IEEE_Access19"
+    journal: "IEEE Access"
+    type: "Journal"
+    number: "7"
+    pages: "87887--87900"
+    year: "2019"
+    url: "/publications/IEEE_Access.pdf"
+
   - author: "Jifan Yu, **Liangming Pan**, Juanzi Li, and Xiaoping Du"
     title: "Predicting Concept-based Research Trends with Rhetorical Framing"
     keywords: "CCKS18"
@@ -112,7 +138,7 @@ time:
     {{pub.author}}.<br>
     {% if pub.type == 'Technical Report' %}{{pub.number}}
     {% endif %}{{pub.booktitle}}{{pub.school}}{{pub.journal}}<br>
-    {% if pub.pages %}{{pub.pages}}{% endif %}. 
+    {% if pub.pages %}{{pub.pages}}. {% endif %} 
     {% if pub.address %}{{pub.address}}.
     {% endif %} {{pub.month}}, {{pub.year}}.<br>
     {% if pub.url %}[[Paper]]({{pub.url}}).{% endif %}
