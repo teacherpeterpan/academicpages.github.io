@@ -20,7 +20,7 @@ pubs:
     booktitle: "arXiv preprint"
     url: "https://arxiv.org/abs/1905.08949"
 
-  - author: "Yahui An, **Liangming Pan**, Min-Yen Kan, Qiang Dong, and Yan Fu (Corresponding Author)"
+  - author: "Yahui An, **Liangming Pan${html`*`}**, Min-Yen Kan, Qiang Dong, and Yan Fu (${html`*`}Corresponding Author)"
     title: "Resource Mention Extraction for MOOC Discussion Forums"
     keywords: "IEEE_Access19"
     journal: "IEEE Access 7 (2019): 87887-87900"
@@ -137,10 +137,9 @@ time:
     {{pub.author}}<br>
     {{pub.booktitle}}{{pub.school}}{{pub.journal}}<br>
     {% if pub.month %}
-    {% if pub.pages %} {{pub.pages}}. {% endif %} 
     {% if pub.address %}{{pub.address}}.
-    {% endif %} {{pub.month}}, {{pub.year}}.
-    {% endif %}<br>
+    {% endif %} {{pub.month}}, {{pub.year}}.<br>
+    {% endif %}
     {% if pub.url %}[[Paper]]({{pub.url}}).{% endif %}
     {% if pub.slides %}[[Slides]]({{pub.slides}}).{% endif %}
     {% if pub.key %}[Bibtex](http://groups.csail.mit.edu/commit/bibtex.cgi?key={{pub.key}}).
