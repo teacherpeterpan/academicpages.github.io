@@ -20,7 +20,7 @@ pubs:
     booktitle: "arXiv preprint"
     url: "https://arxiv.org/abs/1905.08949"
 
-  - author: "Yahui An, **Liangming Pan\***, Min-Yen Kan, Qiang Dong, and Yan Fu (Corresponding Author)"
+  - author: "Yahui An, **Liangming Pan**, Min-Yen Kan, Qiang Dong, and Yan Fu (Corresponding Author)"
     title: "Resource Mention Extraction for MOOC Discussion Forums"
     keywords: "IEEE_Access19"
     journal: "IEEE Access 7 (2019): 87887-87900"
