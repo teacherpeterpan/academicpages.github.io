@@ -135,10 +135,9 @@ time:
     {% endif %}{% if pub.type %}({{pub.type}})
     {% endif %}<br>
     {{pub.author}}<br>
-    {% if pub.type == 'Technical Report' %}{{pub.number}}
-    {% endif %}{{pub.booktitle}}{{pub.school}}{{pub.journal}}<br>
+    {{pub.booktitle}}{{pub.school}}{{pub.journal}}<br>
     {% if pub.month %}
-    {% if pub.pages %}{{pub.pages}}. {% endif %} 
+    {% if pub.pages %} {{pub.pages}}. {% endif %} 
     {% if pub.address %}{{pub.address}}.
     {% endif %} {{pub.month}}, {{pub.year}}.
     {% endif %}<br>
