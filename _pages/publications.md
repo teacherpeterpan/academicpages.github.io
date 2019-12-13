@@ -135,9 +135,7 @@ time:
     {% endif %}{% if pub.type %}({{pub.type}})
     {% endif %}<br>
     {{pub.author}}<br>
-    {{pub.booktitle}}{{pub.school}}{{pub.journal}}{% if pub.month %}{% if pub.address %} {{pub.address}}.
-    {% endif %} {{pub.month}}, {{pub.year}}.{% endif %}
-    {% if pub.url %} [[Paper]]({{pub.url}}).{% endif %}
+    {{pub.booktitle}}{{pub.school}}{{pub.journal}}{% if pub.month %}{% if pub.address %} {{pub.address}}.{% endif %} {{pub.month}},{{pub.year}}.{% endif %}<br>{% if pub.url %} [[Paper]]({{pub.url}}).{% endif %}
     {% if pub.slides %}[[Slides]]({{pub.slides}}).{% endif %}
     {% if pub.key %}[Bibtex](http://groups.csail.mit.edu/commit/bibtex.cgi?key={{pub.key}}).
     {% endif %}{% if pub.bibtex %}[Bibtex]({{pub.bibtex}}).
