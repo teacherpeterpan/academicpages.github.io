@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: archive
 permalink: /research/
 title: Research
 excerpt: "Research"
