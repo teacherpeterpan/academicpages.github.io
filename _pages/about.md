@@ -36,11 +36,9 @@ News
 ======
 
 - **[Nov 11, 2019]**
-  
   One paper is accepted by [AAAI 2020](https://AAAI.org/Conferences/AAAI-20/) about Zero-shot Food Ingredients Recognition!
 
 - **[May 22, 2019]**
-  
   A survey paper on Neural Question Generation (NQG) is posted in the [arXiv](https://arxiv.org/abs/1905.08949). 
 
 
