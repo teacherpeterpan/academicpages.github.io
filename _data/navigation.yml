@@ -7,10 +7,7 @@ main:
     url: /publications/
 
   - title: "Research"
-    url: /research/    
-
-  - title: "Teaching"
-    url: /teaching/
+    url: /research/
         
   - title: "Blog Posts"
     url: /year-archive/
