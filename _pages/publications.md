@@ -11,7 +11,7 @@ pubs:
     year: "2020"
     booktitle: "*The 34th AAAI Conference on Artificial Intelligence* **(AAAI 2020)**"
     address: "New York, USA"
-    url: "http://teacherpeterpan.github.io/files/publications/AAAI20_Paper.pdf"
+    url: "/files/publications/AAAI20_Paper.pdf"
 
   - author: "**Liangming Pan**, Wenqiang Lei, Tat-Seng Chua, Min-Yan Kan"
     title: "Recent Advances in Neural Question Generation"
@@ -26,7 +26,7 @@ pubs:
     journal: "IEEE Access 7 (2019): 87887-87900"
     type: "Journal"
     year: "2019"
-    url: "http://teacherpeterpan.github.io/files/publications/IEEE_Access.pdf"
+    url: "/files/publications/IEEE_Access.pdf"
 
   - author: "Jifan Yu, **Liangming Pan**, Juanzi Li, and Xiaoping Du"
     title: "Predicting Concept-based Research Trends with Rhetorical Framing"
@@ -35,7 +35,7 @@ pubs:
     year: "2018"
     booktitle: "*The 3th China Conference on Knowledge Graph and Semantic Computing* **(CCKS 2018)**"
     address: "Tianjin, China"
-    url: "http://teacherpeterpan.github.io/files/publications/CCKS18_Paper.pdf"
+    url: "/files/publications/CCKS18_Paper.pdf"
 
   - author: "**Liangming Pan**, Xiaochen Wang, Chengjiang Li, Juanzi Li, and Jie Tang"
     title: "Course Concept Extraction in MOOCs via Embedding-Based Graph Propagation"
@@ -45,8 +45,8 @@ pubs:
     booktitle: "*The 8th International Joint Conference on Natural Language Processing* **(IJCNLP 2017)**"
     address: "Taipei, Taiwan"
     pages: " Pages 875--884"
-    url: "http://teacherpeterpan.github.io/files/publications/IJCNLP17_Paper.pdf"
-    slides: "http://teacherpeterpan.github.io/files/publications/IJCNLP17_Slides.pdf"
+    url: "/files/publications/IJCNLP17_Paper.pdf"
+    slides: "/files/publications/IJCNLP17_Slides.pdf"
 
   - author: "**Liangming Pan**, Chengjiang Li, Juanzi Li, and Jie Tang"
     title: "Prerequisite Relation Learning for Concepts in MOOCs"
@@ -56,8 +56,8 @@ pubs:
     address: "Vancouver, Canada"
     booktitle: "*The 55th Annual Meeting of the Association for Computational Linguistics* **(ACL 2017)**"
     pages: " Pages 1447--1456"
-    url: "http://teacherpeterpan.github.io/files/publications/ACL17_Paper.pdf"
-    slides: "http://teacherpeterpan.github.io/files/publications/ACL17_Slides.pdf"
+    url: "/files/publications/ACL17_Paper.pdf"
+    slides: "/files/publications/ACL17_Slides.pdf"
 
   - author: "**Liangming Pan**, Zhigang Wang, Juanzi Li and Jie Tang"
     title: "Domain Specific Cross-Lingual Knowledge Linking Based on Similarity Flooding"
@@ -135,7 +135,7 @@ time:
     {% endif %}{% if pub.type %}({{pub.type}})
     {% endif %}<br>
     {{pub.author}}<br>
-    {{pub.booktitle}}{{pub.school}}{{pub.journal}}<br>{% if pub.month %}{% if pub.address %} {{pub.address}}.{% endif %} {{pub.month}},{{pub.year}}.{% endif %}<br>{% if pub.url %} [[Paper]]({{pub.url}}).{% endif %}
+    {{pub.booktitle}}{{pub.school}}{{pub.journal}}<br>{% if pub.month %}{% if pub.address %} {{pub.address}}.{% endif %} {{pub.month}},{{pub.year}}.<br>{% endif %}{% if pub.url %} [[Paper]]({{pub.url}}).{% endif %}
     {% if pub.slides %}[[Slides]]({{pub.slides}}).{% endif %}
     {% if pub.key %}[Bibtex](http://groups.csail.mit.edu/commit/bibtex.cgi?key={{pub.key}}).
     {% endif %}{% if pub.bibtex %}[Bibtex]({{pub.bibtex}}).
