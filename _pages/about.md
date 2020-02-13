@@ -8,11 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-I am a first year PhD student at [NUS Graduate School for Integrative Sciences and Engineering (NGS)][NGS], [National University of Singapore][NUS]. 
+I am a third year PhD student at [NUS Graduate School for Integrative Sciences and Engineering (NGS)][NGS], [National University of Singapore][NUS]. 
 I am associated with the [Web Information Retrieval / Natural Language Processing Group (WING)][WING] and jointly advised by Prof. [Min-Yen Kan][Min] and Prof. [Tat-Seng Chua][Chua]. 
 <!--I am also interning at 6ESTATES, an AI company in Sigapore.-->
 My board research interests include knowledge base, natural language processing, and data mining. 
-My thesis topic is on learning to **generate complex questions from both texts and knowledge bases**. 
+My thesis topic is on learning to **knowledge-enhanced deep question generation**. 
 Besides this, I am also working on topics related to **expertise style transfer**, and **zero/few-shot image recognition**. 
 <!-- *multi-media structure learning of food recipes*.  -->
 
@@ -42,7 +42,7 @@ News
   A survey paper on Neural Question Generation (NQG) is posted in the [arXiv](https://arxiv.org/abs/1905.08949). 
 
 
-Research Topics
+<!-- Research Topics
 ======
 
 - **Data Mining in MOOCs**
@@ -51,4 +51,24 @@ Research Topics
 
 - **Cross-lingual Knowledge Graph**
  
-  The global knowledge sharing makes large-scale multi-lingual knowledge bases an extremely valuable resource in the Big Data era. In the year 2015, my research mainly focus on cross-lingual knowledge graph construction, and I also research on cross-lingual knowledge linking, which aims to discover and link equivalent entities between multi-lingual knowledge bases. 
+  The global knowledge sharing makes large-scale multi-lingual knowledge bases an extremely valuable resource in the Big Data era. In the year 2015, my research mainly focus on cross-lingual knowledge graph construction, and I also research on cross-lingual knowledge linking, which aims to discover and link equivalent entities between multi-lingual knowledge bases.  -->
+
+Education
+======
+- **Jan 2018 - Jan 2022 (expected)**. Ph.D Candidate, NUS Graduate School for Integrative Sciences and Engineering, National University of Singapore, Singapore. 
+- **Sep 2014 - July 2017**. M.S., Department of Computer Science and Technology, Tsinghua University, China. 
+- **Sep 2010 - July 2014**. B.S., Deparment of Software Engineering, Beihang University, China. 
+
+Experience
+======
+* **July 2017 - Dec 2017**: Research Assistant
+  * Knowledge Engineering Group, Tsinghua University
+  * Supervisor: Professor Juanzi Li and Professor Jie Tang
+
+Awards and Hornors
+======
+* **Jun. 2017**. Excellent master postgraduate of CS department, Tsinghua
+* **Oct. 2016**. Friends of Tsinghua — Renrendai scholarship
+* **Apr. 2013**. Meritorious Winner of Mathematical Contest in Modeling
+* **Dec. 2011**. Third prize Scholarship of Academic Performance
+* **Aug. 2011**. Second prize of Mathematics Competition in Beihang University
