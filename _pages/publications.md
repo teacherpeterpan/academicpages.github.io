@@ -125,7 +125,7 @@ time:
 <hr>
 ## Selected Publications -->
 
-{% for year in page.time %}
+<!-- {% for year in page.time %}
 ### {{year.name}}
 {% for pub in page.pubs %}
 {% if pub.year == year.year %}
@@ -140,6 +140,23 @@ time:
     {% if pub.key %}[Bibtex](http://groups.csail.mit.edu/commit/bibtex.cgi?key={{pub.key}}).
     {% endif %}{% if pub.bibtex %}[Bibtex]({{pub.bibtex}}).
     {% endif %}
+{% endunless %}
+{% endif %}
+{% endfor %}
+{% endfor %} -->
+
+<!-- Simplified Version -->
+{% for year in page.time %}
+### {{year.name}}
+{% for pub in page.pubs %}
+{% if pub.year == year.year %}
+{% unless pub.hidden %}
+  - {% if pub.url %} [{{pub.title}}]({{pub.url}}).
+    {% else %} {{pub.title}}
+    {% endif %}{% if pub.type %}({{pub.type}})
+    {% endif %}<br>
+    {{pub.author}}<br>
+    {{pub.booktitle}}{{pub.school}}{{pub.journal}}.
 {% endunless %}
 {% endif %}
 {% endfor %}
